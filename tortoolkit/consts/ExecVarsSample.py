@@ -11,22 +11,22 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001564672569,1329541902]
+        ALD_USR = [-1001314246148,1069453449] 
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 5
+        EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2097152000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "■"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "□"
 
         # DB URI for access
         DB_URI = os.environ.get("DATABASE_URL")
@@ -66,9 +66,9 @@ except:
         # CHANGE THESE AT YOUR RISK
         LOCKED_USERS = False
         RSTUFF = False
-        FORCE_DOCS_USER = False
+        FORCE_DOCS_USER = True
         FAST_UPLOAD = True
-        METAINFO_BOT = False
+        METAINFO_BOT = True
         
 
 
